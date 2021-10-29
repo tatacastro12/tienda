@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image:url("../IMAGES/diana\ fondo.jpg");
+    background-position:center ;
+
+}
+
+.contenedor {
+    height: 90px;
+    width: 100vw;
+    background: rgb(133, 115, 214);
+}
+
+.navbar-brand img {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.btn-outline-success img {
+    height: 32px;
+    width: 32px;
+}
+
+.contador {
+    position: absolute;
+    background: rgb(216, 80, 80);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    right: 10px;
+    top: 15px;
+    font-size: 0.7em;
+}

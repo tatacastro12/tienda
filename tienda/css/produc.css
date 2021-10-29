@@ -1,0 +1,88 @@
+.goods_list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body{
+    background-image:url("../IMAGES/diana\ fondo.jpg fondo.jpg");
+    background-position:center ;
+   
+}
+
+.producto img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: rgb(148, 60, 60) solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.top_name {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.car {
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: rgb(147, 214, 163) solid 1px;
+    background-color: rgb(147, 214, 163);
+    font-size: 0.8em;
+}
+
+.list_prod {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100px;
+}
+
+.prod_title {
+    background-color: rgb(32, 229, 243);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-top: 5px;
+    border-bottom: #4b4545 solid 1px;
+}
+
+.prod div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+#delete,
+#more {
+    background-color: rgb(255, 0, 0) !important;
+    border: none;
+    height: fit-content;
+    width: 20px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.price {
+    margin-bottom: 5px;
+}
+
+#range {
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
