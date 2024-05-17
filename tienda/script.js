@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Mostrar un resumen del pedido para que el usuario confirme los cambios
         if (confirm(`¿Estás seguro de enviar este pedido?\n\n${mensaje}`)) {
             // Si el usuario confirma, procede a enviar el pedido a WhatsApp
-            let numeroWhatsApp = '1234567890'; // Reemplaza '1234567890' con tu número de WhatsApp
+            let numeroWhatsApp = '573224508299'; // Reemplaza '1234567890' con tu número de WhatsApp
             let url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`; // Crea la URL para enviar el mensaje a WhatsApp
             window.open(url, '_blank'); // Abre la URL en una nueva pestaña
             alert(`Pedido enviado a WhatsApp: \n${mensaje}`);
