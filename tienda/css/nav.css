@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image:url("../IMAGES/diana\ fondo.jpg");
+    background-color: blanchedalmond;
     background-position:center ;
 
 }
@@ -37,4 +37,64 @@ body{
     right: 10px;
     top: 15px;
     font-size: 0.7em;
+}
+
+.slider {
+    /*width: 100%; /* Establece el ancho del slider al 100% del contenedor */
+    overflow: hidden; /* Oculta el desbordamiento de las imágenes */
+    padding: 20px; /* Relleno interior para el div */
+    margin-top: 20px; /* Margen superior para separar el div del encabezado */
+    
+
+
+}
+
+.slider img {
+    width: 100%; /* Establece el ancho de las imágenes al 100% del contenedor */
+    display: none; /* Oculta todas las imágenes por defecto */
+    height: 500px;
+    
+   
+}
+
+.slider img:first-child {
+    display: block; /* Muestra la primera imagen */
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.pagination span {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pagination span.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-container {
+    background-color:rgb(227, 242, 253);
+    color:  black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-left h2 {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 5px 0;
 }

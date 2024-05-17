@@ -86,3 +86,22 @@ body{
     margin-top: 0;
     margin-bottom: 5px;
 }
+
+.footer-container {
+    background-color: rgb(12, 12, 11);
+    color:  rgb(223, 205, 129);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-left h2 {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
