@@ -11,11 +11,11 @@ body{
 
 }
 
-.contenedor {
+/*.contenedor {
     height: 90px;
     width: 100vw;
     background: rgb(133, 115, 214);
-}
+}*/
 
 .navbar-brand img {
     height: 60px;
@@ -26,6 +26,9 @@ body{
     height: 32px;
     width: 32px;
 }
+
+
+
 
 .contador {
     position: absolute;
@@ -81,7 +84,7 @@ body{
 }
 
 .footer-container {
-    background-color:rgb(227, 242, 253);
+    background-color:rgb(225, 140, 233);
     color:  black;
     padding: 20px;
     text-align: center;
